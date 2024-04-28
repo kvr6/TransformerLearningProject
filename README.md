@@ -96,11 +96,12 @@ These were the learning objectives:
       - **Semantic Similarity**: Similarity between two embeddings could be computed via metrics like cosine similarity, Euclidean distance, or other distance metrics. Cosine similarity is 
                                  particularly popular because it measures the cosine of the angle between the two vectors, effectively normalizing the magnitude and focusing purely on the 
                                  direction.
-      - **Practical Application in the context of Recommendation systems**
-        
-          a. For a given product, compute the cosine similarity between its embedding and the embeddings of all other products in the dataset.
-          b. Order these products based on their similarity scores.
-          c. Suggest the top N products with the highest similarity scores to the user.
+      - **Practical Application in the context of recommendation systems**:
+
+        For a given product - <br>
+        a. Compute the cosine similarity between its embedding and the embeddings of all other products in the dataset. <br>
+        b. Order these products based on their similarity scores. <br>
+        c. Suggest the top N products with the highest similarity scores to the user.
 
  ### Potential enhancements and next steps ###
 
