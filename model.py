@@ -1,5 +1,3 @@
-
-
 import torch
 from torch.utils.data import Dataset, DataLoader
 import pytorch_lightning as pl
@@ -91,6 +89,7 @@ with torch.no_grad():
 
 
 torch.set_printoptions(precision=3, threshold=5000, edgeitems=3, linewidth=150, sci_mode=False)
+torch.save(sample_embeddings, 'sample_embeddings.pt')
 
-print("Sample Query Embeddings:", sample_embeddings)
-
+embeddings = torch.load('sample_embeddings.pt')
+print(embeddings)
