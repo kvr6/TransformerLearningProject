@@ -97,6 +97,7 @@ These were the learning objectives:
                                  particularly popular because it measures the cosine of the angle between the two vectors, effectively normalizing the magnitude and focusing purely on the 
                                  direction.
       - **Practical Application in the context of Recommendation systems**
+        
           a. For a given product, compute the cosine similarity between its embedding and the embeddings of all other products in the dataset.
           b. Order these products based on their similarity scores.
           c. Suggest the top N products with the highest similarity scores to the user.
